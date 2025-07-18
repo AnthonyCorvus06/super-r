@@ -1,0 +1,13 @@
+       R-related
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+       CSV backups
+*.csv~
+*.tmp
+
+       Output files
+/output/*
+/docs/*
