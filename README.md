@@ -1,13 +1,17 @@
-This project contains R scripts and visualizations for analyzing youth unemployment trends in the U.S., using data from FRED and BLS.
+This repository contains data analysis scripts and visualizations for comparing youth unemployment trends in the U.S. during the 2008 Financial Crisis and the COVID-19 pandemic using **R**.
 
-## Features
-- Difference-in-Differences (DiD) analysis of 2008 vs COVID-19
-- Labor Force Participation Rate (LFPR) trends
-- Employment-to-Population ratio visualization
+ Features
+- Difference-in-Differences (DiD) regression models
+- Visualizations of unemployment trends:
+  - Youth vs Overall unemployment
+  - LFPR trends
+  - Youth discouragement indicators
+- Analysis scripts with reproducible R code
+- Data cleaning pipeline
 
-## Requirements
-- R (version 4.3 or later)
-- Packages: ggplot2, dplyr, readr, tidyverse, 
+ Requirements
+- R version 4.0+
+- Packages:
+  ```R
+  install.packages(c("ggplot2", "dplyr", "readr" , "tidyverse"))
 
-## Usage
-Clone this repo:
